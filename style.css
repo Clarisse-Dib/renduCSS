@@ -1,0 +1,185 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top:  10px;
+    background-color: #055089a2;
+}
+.presentation{
+    margin-left: 30px;
+    padding-top: 30px;
+    color: white;
+}
+h1{
+    font-size: 600px;
+    font-size: unset;
+}
+.tout{
+    font-size: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+}
+.first{
+    display:flex;
+}
+#menu{
+    margin-top: 0px ;
+    margin-right: 10px;
+}
+#fran{
+    margin-top: 0px;
+}
+.info{
+    margin-right: 10px;
+}
+header{
+    background-image: url(Space.jpeg) ;
+    height: 100vh;
+
+}
+body{
+    background-color:#055089 ;
+    color: white;
+    margin: 0px;
+}
+main{
+    padding: 10px;
+}
+.eve{
+    text-align: center;
+    font-size: 40px;
+
+}
+.carte{
+    background-color: #043357bd;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 312px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgb(192 223 255 / 10%);
+    margin: 10px;
+}
+.evenements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-content{
+    
+    padding: 10px;
+}
+.attribu{ margin-top: 0px;
+display: flex;}
+.box1{
+    background-color: rgb(114, 238, 238);
+    color: rgb(35, 39, 48);
+    padding: 2px;
+    border-radius: 8%;
+    margin-top: 0px;
+    margin-right: 3px;
+}
+.box2{
+    background-color: rgb(230, 129, 211);
+    color: rgb(35, 39, 48);
+    padding: 2px;
+    border-radius: 8%;
+    margin-top: 0px;
+}
+.photo{
+ height:200px;
+ width: 100%;
+}
+.titre{
+    margin-bottom: 2px;
+}
+footer{
+    padding: 10px;
+    background-color: white;
+    color: #102f46;
+}
+button{
+    background-color: rgb(66, 66, 145);
+    color: rgb(248, 249, 251);
+    margin: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 0.2px;
+    border-color: #055089;
+}
+button:hover{
+    background-color: rgb(119, 193, 168);
+}
+.abonner{
+    width: fit-content;
+}
+.Pep{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#subscribe{
+    background-color: rgb(66, 66, 145);
+    color: rgb(248, 249, 251);
+    margin: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 0.2px;
+    border-color: #055089;
+}
+#subscribe:hover{
+    background-color: rgb(119, 193, 168);
+}
+#MonEnvieDeVivre{
+    background-color: bisque;
+    color:#102f46;
+    border-radius: 5%;
+    text-align: center;
+    padding: 5px;
+}
+p{
+    font-family: 'Palanquin';
+}
+h1{
+    font-family: 'Kanit';
+
+}
+h2{
+    font-family: 'Kanit';
+
+}
+h3{
+    font-family: 'Kanit';
+
+}
+button{
+    font-family: 'Palanquin';    
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
+.réseaux{
+    text-align: center;
+    border-bottom: 200px;
+    border-color: #102f46;
+}
+#Steve{
+    display: flex;
+}
+#Vinni{
+    display: flex;
+}
+i{
+    padding: 15px;
+    background-color: #b1d0e7;
+    color: #055089;
+    border-radius: 5px;
+}

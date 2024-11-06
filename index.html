@@ -1,80 +1,205 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acceuille</title>
+    <link href="https://fonts.googleapis.com/css?family=Kanit|Palanquin" rel="stylesheet">
+    <title>
+        <i class="fa-solid fa-star-and-crescent"></i>Acceuile</title>
     <link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
-            <i class="fa-solid fa-bars"></i>
-            <p>Menu</p>
-            <i class="fa-solid fa-wheelchair-move"></i>
-            <p>/fran</p>
-            <a href="even"> <button>Nos évènements</button></a>
-            <a href="inscription"> <button>créer un compte</button></a>
+            <section class="first">
+                <i class="fa-solid fa-bars"></i>
+                <p id="menu">Menu</p>
+                <i class="fa-solid fa-wheelchair-move"></i>
+                <p id="fran">/fran</p>
+            </section>
+            <section class="nav">
+                <a class="info" href="#MonEnvieDeVivre"> <button>Plus d'infos</button></a>
+                <a class="info" href="#profils"> <button>S'abonner</button></a>
+            </section>
         </nav>
-        <section>
+
+        <section class="presentation">
             <h1>L'espace comme jamais avant</h1>
-            <p>Tout les évènements spaciaux du pays réunis en un seul endroit</p>
+            <p class="tout">Tout les évènements spaciaux du pays réunis en un seul endroit</p>
         </section>
     </header>
+
     <main>
-       <section class="even">
-           <h2> Nos évènements :</h2>
-           <!-- Carte évènement-->
-           <!--1-->
-           <section class="carte">
-               <img src="" alt="Spaciale">
-               <h3> Passer 15 minutes dans l'éspace</h3>
-               <p>Du... au ... en....</p>
-               <a href="event.html"><button>Billetrie</button></a>
+        <h2 class="eve"> Nos évènements :</h2>
+        <section class="evenements">
+            <section class="carte">
+                <img class="photo" src="Coupole.jpg" alt="1">
+                <div class="card-content">
+                    <h3 class="titre"> Nouvelle exposition plus vrai que nature</h3>
+                    <section class="attribu">
+                        <p class="box1">
+                            science
+                        </p>
+                        <p class="box2">
+                            découverte
+                        </p>
+                    </section>
+                    <div class="redirection">
+                        <p class="date">Du 01/16 au 02/20</p>
+                        <p>Vaux-en-Velin</p>
+                        <a href="event.html"><button>Plus d'infos</button></a>
+                    </div>
+                </div>
+            </section>
+            <section class="carte">
+                <img class="photo" src="satelite.jpg" alt="2">
+                <div class="card-content">
+                    <h3 class="titre"> Live depuis la station spatiale</h3>
+                    <section class="attribu">
+                        <p class="box1">
+                            science
+                        </p>
+                        <p class="box2">
+                            découverte
+                        </p>
+                    </section>
+                    <p class="date">Du 01/16 au 02/20</p>
+                    <p>Vaux-en-Velin</p>
+                    <a href="event.html"><button>Plus d'infos</button></a>
+                </div>
+            </section>
+            <section class="carte">
+                <img class="photo" src="Steve.jpg" alt="3">
+                <div class="card-content">
+
+                    <h3 class="titre"> Initiation au métier d'astronaute</h3>
+                    <section class="attribu">
+                        <p class="box1">
+                            science
+                        </p>
+                        <p class="box2">
+                            découverte
+                        </p>
+                    </section>
+                    <p class="date">Du 30/01 au 02/03
+                    </p>
+                    <p>Vaux-en-Velin</p>
+                    <a href="event.html"><button>Plus d'infos</button></a>
+                </div>
+            </section>
+            <section class="carte">
+                <img class="photo" src="Expo.jpg" alt="4">
+                <div class="card-content">
+
+                    <h3 class="titre"> Exploration du Cosmos</h3>
+                    <section class="attribu">
+                        <p class="box1">
+                            science
+                        </p>
+                        <p class="box2">
+                            découverte
+                        </p>
+                    </section>
+                    <p class="date">Du 11/03 au 26/05</p>
+                    <p>Vaux-en-Velin</p>
+                    <a href="event.html"><button>Plus d'infos</button></a>
+                </div>
+            </section>
+            <section class="carte">
+                <img class="photo" src="Plantes.jpg" alt="5">
+                <div class="card-content">
+
+                    <h3 class="titre"> Conférence sur les plantations de demain</h3>
+                    <section class="attribu">
+                        <p class="box1">
+                            science
+                        </p>
+                        <p class="box2">
+                            découverte
+                        </p>
+                    </section>
+                    <p class="date">Du 01/10 au 20/12</p>
+                    <p>Vaux-en-Velin</p>
+                    <a href="event.html"><button>Plus d'infos</button></a>
+                </div>
+            </section>
+            <section class="carte">
+                <img class="photo" src="Orbite.jpg" alt="6">
+                <div class="card-content">
+
+                    <h3 class="titre"> Découvrire la nouvelle station lunaire</h3>
+                    <section class="attribu">
+                        <p class="box1">
+                            science
+                        </p>
+                        <p class="box2">
+                            découverte
+                        </p>
+                    </section>
+                    <p class="date">Du 14/02 au 31/02</p>
+                    <p>Vaux-en-Velin</p>
+                    <a href="event.html"><button>Plus d'infos</button></a>
+                </div>
             </section>
         </section>
-        <section class="inscription">
-            <h2>Restez informer</h2>
-            <p>
-                Soyez toujours au courant des nouveauter autour de vous graçe à notre news letter</h2>
-            </p>
-                <form action="" method="get">
-                <div>
-                    <label for="name"> Prénom : </label>
-                    <input type="text" name="name" id="name" required/>
-                </div>
-                <div>
-                    <label for="email"> Adresse mail :
-                    </label>
-                    <input type="email" name="email" id="email" required />
-                </div>
-                <div>
-                    <input type="submit" value="S'abonner !"
-                    />
-                </div>
+    </main>
+    
+    <footer>
+        <section id="MonEnvieDeVivre">
+            <h2> Restez au courant !</h2>
+            <p>Abonner vous à notre news letter pour ne jamais manquer un nouvel évènement autour de vous !</p>
+            <form action="/inscription" method="post">
+                <label for="nom">Prénom :</label>
+                <input type="text" id="nom" name="nom"><br>
+    
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email"><br>
+    
+                <input id="subscribe" type="submit" value="M'abonner !">
             </form>
         </section>
-        </main>
-    <footer>
         <h2>
-            En savoir plus sur nous.
+            En savoir plus sur nous :
         </h2>
-       <section>
-           <img src="" alt="Notre fondateur">
-           <h3>Steve Stiivie</h3>
-           <p>Fondateur de notre page il dédie sa vie à rendre l'espace accessible à tous.
-               "Aucun homme n'est trop petit pour l'imensiter du cosmos"
-            </p>
-            <img src="" alt="Web disigner">
-            <h3>Vinni Vitchi</h3>
-            <p>Créatrice de notre page web. elle essaye de gagner asser d'argent pour s'acheter un nouvel ordinateur. "Si je saute un repas par jour, je devrais pouvoir me le payer d'ici 2050" </p>
+        <section id="profils">
+           <section id="Steve">
+               <img class="Pep" src="Miaou.jpg" alt="Notre fondateur">
+              <section>
+                  <h3>Steve Stiivie</h3>
+                  <p>Fondateur de notre page il dédie sa vie à rendre l'espace accessible à tous.
+                      "Aucun homme n'est trop petit pour l'imensiter du cosmos"
+                    </p>
+                </section>
+            </section>
+           <section id="Vinni">
+               <img class="Pep" src="nyan.jpg" alt="Web disigner">
+               <section>
+                   <h3>Vinni Vitchi</h3>
+                   <p>Créatrice de notre page web. elle essaye de gagner asser d'argent pour s'acheter un nouvel ordinateur.
+                       "Si je saute un repas par jour, je devrais pouvoir me le payer d'ici 2050" </p>
+                    </section>
+                </section>
         </section>
-        <h2>Nos autres réseaux</h2>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-x-twitter"></i>
-        <i class="fa-brands fa-tiktok"></i>
-        <i class="fa-brands fa-facebook"></i>
-        </footer>
+        <h2 class="réseaux">Nos autres réseaux</h2>
+       <section class="logos">
+        <a href="https://www.instagram.com/">
+            <i class="fa-brands fa-instagram"></i>
+        </a>   
+        <a href="https://x.com/?lang=fr">
+            <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="https://www.facebook.com/?locale=fr_FR">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+        <a href="https://www.facebook.com/?locale=fr_FR">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        </section>
+    </footer>
     <script src="https://kit.fontawesome.com/7f965085dc.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
