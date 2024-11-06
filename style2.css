@@ -1,0 +1,98 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    background-color: #03243da2;
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+}
+
+.first {
+    display: flex;
+}
+
+button {
+    background-color: rgb(66, 66, 145);
+    color: rgb(248, 249, 251);
+    margin: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 0.2px;
+    border-color: #055089;
+    font-family: 'Palanquin';
+}
+
+button:hover {
+    background-color: rgb(119, 193, 168);
+}
+
+.info {
+    margin-right: 10px;
+}
+
+body {
+    background-color: #033860;
+    color: white;
+    margin: 0px;
+}
+
+#fran {
+    margin-top: 0px;
+}
+
+#menu {
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.icon {
+    padding: 15px;
+    background-color: #b1d0e7;
+    color: #055089;
+    border-radius: 5px;
+}
+
+header {
+    background-image: url(Spacino.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.information{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+.pres{
+    max-width: 50%;
+}
+.if{
+    text-align: end;
+}
+p {
+    font-family: 'Palanquin';
+}
+
+h1 {
+    font-family: 'Kanit';
+
+}
+
+h2 {
+    font-family: 'Kanit';
+
+}
+
+h3 {
+    font-family: 'Kanit';
+
+}

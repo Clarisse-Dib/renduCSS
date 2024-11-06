@@ -1,57 +1,70 @@
-nav{
+nav {
     display: flex;
     justify-content: space-between;
-    padding-top:  10px;
+    padding-top: 10px;
     background-color: #055089a2;
 }
-.presentation{
+
+.presentation {
     margin-left: 30px;
     padding-top: 30px;
     color: white;
 }
-h1{
+
+h1 {
     font-size: 600px;
     font-size: unset;
 }
-.tout{
+
+.tout {
     font-size: 30px;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: end;
 }
-.first{
-    display:flex;
+
+.first {
+    display: flex;
 }
-#menu{
-    margin-top: 0px ;
+
+#menu {
+    margin-top: 0px;
     margin-right: 10px;
 }
-#fran{
+
+#fran {
     margin-top: 0px;
 }
-.info{
+
+.info {
     margin-right: 10px;
 }
-header{
-    background-image: url(Space.jpeg) ;
+
+header {
+    background-image: url(Space.jpeg);
     height: 100vh;
 
 }
-body{
-    background-color:#055089 ;
+
+body {
+    background-color: #055089;
     color: white;
     margin: 0px;
 }
-main{
+
+main {
     padding: 10px;
 }
-.eve{
+
+.eve {
     text-align: center;
     font-size: 40px;
 
 }
-.carte{
+
+.carte {
     background-color: #043357bd;
     display: flex;
     flex-direction: column;
@@ -61,18 +74,24 @@ main{
     box-shadow: 0 10px 30px rgb(192 223 255 / 10%);
     margin: 10px;
 }
-.evenements{
+
+.evenements {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.card-content{
-    
+
+.card-content {
+
     padding: 10px;
 }
-.attribu{ margin-top: 0px;
-display: flex;}
-.box1{
+
+.attribu {
+    margin-top: 0px;
+    display: flex;
+}
+
+.box1 {
     background-color: rgb(114, 238, 238);
     color: rgb(35, 39, 48);
     padding: 2px;
@@ -80,26 +99,31 @@ display: flex;}
     margin-top: 0px;
     margin-right: 3px;
 }
-.box2{
+
+.box2 {
     background-color: rgb(230, 129, 211);
     color: rgb(35, 39, 48);
     padding: 2px;
     border-radius: 8%;
     margin-top: 0px;
 }
-.photo{
- height:200px;
- width: 100%;
+
+.photo {
+    height: 200px;
+    width: 100%;
 }
-.titre{
+
+.titre {
     margin-bottom: 2px;
 }
-footer{
+
+footer {
     padding: 10px;
     background-color: white;
     color: #102f46;
 }
-button{
+
+button {
     background-color: rgb(66, 66, 145);
     color: rgb(248, 249, 251);
     margin: 0px;
@@ -107,25 +131,31 @@ button{
     border-radius: 5px;
     border-width: 0.2px;
     border-color: #055089;
+    font-family: 'Palanquin';
 }
-button:hover{
+
+button:hover {
     background-color: rgb(119, 193, 168);
 }
-.abonner{
+
+.abonner {
     width: fit-content;
 }
-.Pep{
+
+.Pep {
     border-radius: 100%;
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
 }
-form{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-#subscribe{
+
+#subscribe {
     background-color: rgb(66, 66, 145);
     color: rgb(248, 249, 251);
     margin: 0px;
@@ -134,50 +164,58 @@ form{
     border-width: 0.2px;
     border-color: #055089;
 }
-#subscribe:hover{
+
+#subscribe:hover {
     background-color: rgb(119, 193, 168);
 }
-#MonEnvieDeVivre{
+
+#MonEnvieDeVivre {
     background-color: bisque;
-    color:#102f46;
+    color: #102f46;
     border-radius: 5%;
     text-align: center;
     padding: 5px;
 }
-p{
+
+p {
     font-family: 'Palanquin';
 }
-h1{
+
+h1 {
     font-family: 'Kanit';
 
 }
-h2{
+
+h2 {
     font-family: 'Kanit';
 
 }
-h3{
+
+h3 {
     font-family: 'Kanit';
 
 }
-button{
-    font-family: 'Palanquin';    
-}
-.logos{
+
+.logos {
     display: flex;
     justify-content: space-around;
 }
-.réseaux{
+
+.réseaux {
     text-align: center;
     border-bottom: 200px;
     border-color: #102f46;
 }
-#Steve{
+
+#Steve {
     display: flex;
 }
-#Vinni{
+
+#Vinni {
     display: flex;
 }
-i{
+
+.icon {
     padding: 15px;
     background-color: #b1d0e7;
     color: #055089;
