@@ -71,12 +71,14 @@ header {
     display: flex;
     justify-content: end;
     flex-direction: column;
+    align-items: baseline;
+    padding: 10px;
 }
 .pres{
     max-width: 50%;
 }
 .if{
-    text-align: end;
+    text-align: center
 }
 p {
     font-family: 'Palanquin';
@@ -95,4 +97,11 @@ h2 {
 h3 {
     font-family: 'Kanit';
 
+}
+div{
+ width: 50px;
+ border-bottom: 5px solid #b1d0e7;
+}
+.bilet{
+    background-color: rgb(197, 38, 136);
 }
