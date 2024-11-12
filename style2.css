@@ -35,7 +35,7 @@ button:hover {
 
 body {
     background-color: #033860;
-    color: white;
+    color: rgb(223, 230, 255);
     margin: 0px;
 }
 
@@ -47,14 +47,6 @@ body {
     margin-top: 0px;
     margin-right: 10px;
 }
-
-.icon {
-    padding: 15px;
-    background-color: #b1d0e7;
-    color: #055089;
-    border-radius: 5px;
-}
-
 header {
     background-image: url(Spacino.avif);
     background-size: cover;
@@ -62,46 +54,79 @@ header {
     height: 70vh;
 }
 
-.main{
+.main {
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
-.information{
+
+.information {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     flex-direction: column;
-    align-items: baseline;
     padding: 10px;
+    width: 50vh;
 }
-.pres{
+
+.pres {
     max-width: 50%;
 }
-.if{
+
+.if {
     text-align: center
 }
+
 p {
     font-family: 'Palanquin';
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Kanit';
 
 }
-
-h2 {
-    font-family: 'Kanit';
-
+div {
+    width: 50px;
+    border-bottom: 5px solid #b1d0e7;
 }
 
-h3 {
-    font-family: 'Kanit';
-
-}
-div{
- width: 50px;
- border-bottom: 5px solid #b1d0e7;
-}
-.bilet{
+.bilet {
     background-color: rgb(197, 38, 136);
+}
+
+.icon {
+    padding: 14px;
+    background-color: #b1d0e7;
+    color: #055089;
+    border-radius: 13px;
+}
+
+.réseaux {
+    text-align: center;
+    color: #2d516c;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: antiquewhite;
+    color: rgb(10, 52, 83);
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
+.logos {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 6px;
+}
+#city{
+    width: 360px;
+    height: 155px;
+    padding-bottom: 15px;
+}
+.city{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+h2, h1, h3{
+    color: #d1ebff;
 }

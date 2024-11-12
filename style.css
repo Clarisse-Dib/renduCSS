@@ -172,7 +172,7 @@ form {
 #MonEnvieDeVivre {
     background-color: bisque;
     color: #102f46;
-    border-radius: 5%;
+    border-radius: 15px;
     text-align: center;
     padding: 5px;
 }
